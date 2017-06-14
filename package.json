@@ -60,6 +60,7 @@
   "style": "dist/css/bootstrap.css",
   "sass": "scss/bootstrap.scss",
   "main": "dist/js/bootstrap",
+  "browser": "js/bootstrap",
   "browserify": {
     "transform": [
       "babelify"
