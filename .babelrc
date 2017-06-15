@@ -1,6 +1,8 @@
 {
-  "presets": [ "es2015" ],
   "env": {
+    "development": {
+      "presets": [ "es2015" ]
+    },
     "bootstrap-js-compile": {
       "presets": [
         [
@@ -14,6 +16,12 @@
       "plugins": [
         "transform-es2015-modules-strip"
       ]
+    },
+    "bootstrap-js-compile-es-plugins": {
+      "presets": [
+        [ "es2015", { "loose": false,  "modules": false } ]
+      ],
+      "plugins": []
     }
   }
 }
