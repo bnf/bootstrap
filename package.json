@@ -61,8 +61,7 @@
   },
   "style": "dist/css/bootstrap.css",
   "sass": "scss/bootstrap.scss",
-  "main": "dist/js/bootstrap",
-  "browser": "js/src/bootstrap",
+  "main": "js/src/bootstrap",
   "module": "dist/js/bootstrap.es.js",
   "module-alternative": "js/dist/es/bootstrap",
   "browserify": {
